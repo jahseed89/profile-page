@@ -1,0 +1,148 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+
+	html{
+		background-color: black;
+		/*background-color: #edf2f7;*/
+	}
+
+
+	#container{
+		/*border: 1px solid #09F;*/
+		width: 85%;
+		margin: 5px auto;
+		background-color: #edf2f7;
+		/*background-color: rgb(255, 255, 255);*/
+		border-radius: 1.1em 1.1em 1.1em 0;
+
+	}
+
+	#header, #nav, #main, #footer{
+		/*border: 1px solid #09F;*/
+		margin: 5px;
+	}
+
+	#header{
+		height: 100px;
+		background-color: brown;
+		border-radius: .5em .5em .5em;
+
+	}
+
+	#header h1,h3{
+		text-align: center;
+		color: rgb(255, 255, 255);
+	    border: none;
+	    outline: none;
+	    display: block;
+	}
+
+	#nav{
+		height: 50px;
+		/*background-color: #09F;*/
+		background-color: rgb(91, 192, 222);
+	    color: rgb(255, 255, 255);
+	    border: none;
+	    outline: none;
+	    display: block;
+		/*overflow-wrap: break-word;*/
+	}
+
+	#nav h1{
+		text-align: center;
+	}
+
+	#middle{
+		width: 100%;
+		height: 500px;
+		/*margin: auto;*/
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	#left{
+		/*background-color: brown;*/
+		width: 44%;
+		/*border: 1px solid #09F;*/
+		height: 450px;
+		margin-top: 10px;
+		margin-left: 5px;
+		background-color: rgb(91, 192, 222);
+	    color: rgb(255, 255, 255);
+	    border-radius: .5em .5em .5em;
+	}
+
+	#left h1{
+		/*color: rgb(51, 51, 51);*/
+	    font-weight: bold;
+	    text-align: center;
+	    margin-top: 5px;
+	}
+
+	#left h3{
+		text-align: left;
+		margin-left: 10px
+	}
+
+	#right{
+		background-image: url("picture/sam.jpg");
+		width: 49%;
+		/*border: 1px solid #09F;*/
+		height: 93%;
+		letter-spacing: 2px;
+		font-family: arial unicode ms;
+		word-spacing: 2px;
+		line-height: 120%;
+		padding: 15px;
+		overflow: scroll;
+		margin-top: 5px;
+		border-radius: .5em .5em .5em;	
+	}
+
+	#right h1{
+		color: white;
+	    font-weight: bold;
+	    font-family: times new roman;
+	    text-align: center;
+	    margin-top: 5px;
+	}
+
+	#right p{
+		color: white;
+		width: 400px;
+		margin-top: 5%
+	}
+
+	#footer{
+		background-color: brown;
+		height: 250px;
+		align-content: center;
+		padding:5px;
+		margin: 5px;
+		text-align: center;
+		text-decoration-style: bold;
+		border-radius: .5em .5em .5em;
+	}
+
+	#footer a{
+		color: rgb(255, 255, 255);
+	    border: none;
+	    outline: none;
+	    display: block;
+	   /* margin-top: 1px;*/
+	    text-underline-position: none;
+	}
+
+	#footer .comment{
+		height: 60px;
+		width: 200px;
+	    border-radius: .3em;
+	}
+
+	#footer .width{
+		width: 200px;
+	    border-radius: .3em;
+	}
+
